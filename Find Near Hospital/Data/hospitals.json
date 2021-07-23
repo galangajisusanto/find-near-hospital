@@ -1,0 +1,98 @@
+[
+    {
+        "name": "RS UMUM DAERAH  DR. ZAINOEL ABIDIN",
+        "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+        "region": "KOTA BANDA ACEH, ACEH",
+        "phone": "065134565",
+        "province": "Aceh",
+        "image": "rs_zainoel_abidin"
+    },
+    {
+        "name": "RS UMUM DAERAH CUT MEUTIA KAB. ACEH UTARA",
+        "address": "JL. BANDA ACEH-MEDAN KM.6 BUKET RATA LHOKSEUMAWE",
+        "region": "KOTA LHOKSEUMAWE, ACEH",
+        "phone": "064546334",
+        "province": "Aceh",
+        "image": "rs_cut_mutia"
+    },
+    {
+        "name": "RSUP SANGLAH",
+        "address": "JL. DIPONEGORO DENPASAR BALI",
+        "region": "KOTA DENPASAR, BALI",
+        "phone": "0361227912",
+        "province": "Bali",
+        "image": "rs_sanglah"
+    },
+    {
+        "name": "RS UMUM DAERAH KAB. BULELENG",
+        "address": "JL. NGURAH RAI 30 SINGARAJA",
+        "region": "BULELENG, BALI",
+        "phone": "036222046",
+        "province": "Bali",
+        "image" : "rs_buleleng"
+    },
+    {
+        "name": "RS UMUM DAERAH SANJIWANI GIANYAR",
+        "address": "JL. CIUNG WENARA NO.2 GIANYAR",
+        "region": "GIANYAR, BALI",
+        "phone": "0361943049",
+        "province": "Bali",
+        "image": "rs_sanjiwani_gianyar"
+    },
+    {
+        "name": "RS UMUM DAERAH TABANAN",
+        "address": "JL. PAHLAWAN NO. 14 TABANAN",
+        "region": "TABANAN, BALI",
+        "phone": "0361811027",
+        "province": "Bali",
+        "image": "rs_tabanan"
+    },
+    {
+        "name": "RS UMUM DAERAH KABUPATEN TANGERANG",
+        "address": "JL. A YANI NO. 9 TANGERANG, KOTA TANGERANG",
+        "region": "TANGERANG, BANTEN",
+        "phone": "0215523507",
+        "province": "Banten",
+        "image": "rs_tangerang"
+    },
+    {
+        "name": "RS UMUM DAERAH DR. DRAJAT PRAWIRANEGARA",
+        "address": "JL. TGK DAUD BEUREUEH, NO. 108 B. ACEH",
+        "region": "TANGERANG, BANTEN",
+        "phone": null,
+        "province": "Banten",
+        "image": "rs_drajat_parwiranegara"
+    },
+    {
+        "name": "RS UMUM DAERAH DR. M. YUNUS BENGKULU",
+        "address": "JL. BHAYANGKARA, SIDOMULYO, KEC. GADING CEMP., KOTA BENGKULU, BENGKULU 38211",
+        "region": "KOTA BENGKULU, BENGKULU",
+        "phone": "073652004",
+        "province": "Bengkulu",
+        "image": "rs_yunus"
+    },
+    {
+        "name": "RS UMUM DAERAH ARGA MAKMUR",
+        "address": "JL. SITI KHODIJAH NO.8, KALI, ARMA JAYA, KABUPATEN BENGKULU UTARA, BENGKULU 38611",
+        "region": "BENGKULU UTARA, BENGKULU",
+        "phone": "0737521118",
+        "province": "Bengkulu",
+        "image": "rs_arga_makmur"
+    },
+    {
+        "name": "RS UMUM DAERAH HASANUDDIN DAMRAH MANNA",
+        "address": "JL. RAYA PADANG PANJANG, PAGAR DEWA, KOTA MANNA, KABUPATEN BENGKULU SELATAN, BENGKULU 38515",
+        "region": "BENGKULU SELATAN, BENGKULU",
+        "phone": "085381637684",
+        "province": "Bengkulu",
+        "image": "rs_hasanuddin"
+    },
+    {
+        "name": "RS UMUM DAERAH PANEMBAHAN SENOPATI",
+        "address": "JL DR. WAHIDIN SUDIRO HUSODO BANTUL",
+        "region": "BANTUL, DAERAH ISTIMEWA YOGYAKARTA",
+        "phone": "0274367381",
+        "province": "DI Yogyakarta",
+        "image": "rs_panembahan"
+    }
+]

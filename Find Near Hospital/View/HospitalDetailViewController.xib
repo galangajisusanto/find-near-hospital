@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HospitalDetailViewController" customModule="Find_Near_Hospital" customModuleProvider="target">
+            <connections>
+                <outlet property="address" destination="Rz4-Lf-1xV" id="vls-Vq-Qfq"/>
+                <outlet property="callButton" destination="jtd-WM-3aS" id="iLD-sd-wpG"/>
+                <outlet property="img" destination="pqF-G2-KFA" id="0YK-Gj-X8O"/>
+                <outlet property="name" destination="NZC-MT-hfz" id="zoX-fx-krn"/>
+                <outlet property="phone" destination="LST-iW-sBI" id="pfk-ro-qNQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pqF-G2-KFA">
+                    <rect key="frame" x="20" y="44" width="374" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="go5-nn-h7n"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nama" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZC-MT-hfz">
+                    <rect key="frame" x="20" y="264" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="alamat" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rz4-Lf-1xV">
+                    <rect key="frame" x="20" y="300.5" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LST-iW-sBI">
+                    <rect key="frame" x="20" y="337" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtd-WM-3aS">
+                    <rect key="frame" x="20" y="792" width="374" height="50"/>
+                    <color key="backgroundColor" name="Primary Color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="353-8T-XVu"/>
+                    </constraints>
+                    <state key="normal" title="Call">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="btnCallTapped:" destination="-1" eventType="touchUpInside" id="Nqx-Ac-ha2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LST-iW-sBI" firstAttribute="top" secondItem="Rz4-Lf-1xV" secondAttribute="bottom" constant="16" id="10V-ek-ARX"/>
+                <constraint firstItem="LST-iW-sBI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3VB-k5-bA2"/>
+                <constraint firstItem="Rz4-Lf-1xV" firstAttribute="top" secondItem="NZC-MT-hfz" secondAttribute="bottom" constant="16" id="8eo-gz-KCQ"/>
+                <constraint firstItem="Rz4-Lf-1xV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Awc-0g-D4h"/>
+                <constraint firstItem="jtd-WM-3aS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="BPy-df-32v"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="jtd-WM-3aS" secondAttribute="bottom" constant="20" id="OJS-gs-ePz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NZC-MT-hfz" secondAttribute="trailing" constant="20" id="PyU-eZ-r8P"/>
+                <constraint firstItem="NZC-MT-hfz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="WgR-iv-kzt"/>
+                <constraint firstItem="pqF-G2-KFA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="grw-os-gmV"/>
+                <constraint firstItem="pqF-G2-KFA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="lAc-HS-cT3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Rz4-Lf-1xV" secondAttribute="trailing" constant="20" id="mQS-zN-Wdi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LST-iW-sBI" secondAttribute="trailing" constant="20" id="mvP-sx-GI7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pqF-G2-KFA" secondAttribute="trailing" constant="20" id="tH9-HN-3O1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jtd-WM-3aS" secondAttribute="trailing" constant="20" id="v1B-be-VFu"/>
+                <constraint firstItem="NZC-MT-hfz" firstAttribute="top" secondItem="pqF-G2-KFA" secondAttribute="bottom" constant="20" id="xq4-eK-GZQ"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="118"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Primary Color">
+            <color red="0.54900002479553223" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
